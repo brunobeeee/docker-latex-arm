@@ -19,12 +19,6 @@
     bash install-extensions.sh
     ```
 
-6. Start the `merge-bib.sh`-Skript by running the following command inside the VSCode terminal. (optional)
-    ```bash
-    bash merge-bib.sh
-    ```
-    This will merge all the `.bib` files in the `bibDirectory` folder into a single `bibliography.bib` file.
-
 # Features and Settings
 
 ## CloudRef
