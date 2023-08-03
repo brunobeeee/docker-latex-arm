@@ -2,7 +2,6 @@ version: '3'
 services:
   latex:
     build: .
-    platform: linux/arm64
     entrypoint:
       - bash
       - scripts/merge-bib.sh
