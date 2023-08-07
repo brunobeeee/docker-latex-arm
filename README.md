@@ -1,5 +1,5 @@
 # Podman LaTeX
-A LaTeX environment in podman to work with VSCode and especially on `arm64` architecture. Comes with a CloudRef webserver to manage your bibliography (see **CloudRef**). You will also install [LTeX](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex) in the process, configured for German language and with a Java JRE inside the container (see **Java Path**).
+A LaTeX environment to work in a podman container with VSCode and especially on `arm64` architecture. Comes with a CloudRef webserver to manage your bibliography (see **CloudRef**). You will also install [LTeX](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex) in the process, configured for German language and with a Java JRE inside the container (see **Java Path**).
 
 # Getting started
 1. Clone the repository.
