@@ -33,9 +33,9 @@ A LaTeX environment in podman to work with VSCode and especially on `arm64` arch
     ```
     Copy the URI of the machine you created. It should look something like this: `ssh://user@host:port`. Do not copy the `ssh://`.
 
-5. Open the Remote-Explorer "remotes" tab in VSCode and click on the `+`-Button on the top left corner and paste the URI you copied in the previous step. Then choose the SSH config file you want to store this connection in. Normally you would want to save it in your home directory `~/.ssh/config`.
+5. In VSCode open the Remote-Explorer extension on the sidebar and select the "Remotes" tab. Click on the `+`-Button on the top left corner and paste the URI you copied in the previous step. Then choose the SSH config file you want to store this connection in. Normally you would want to save it in your home directory `~/.ssh/config`.
 
-6. You will get a popup asking you to open the config you just created. Now also want to provide the location of the ssh key to connect to the machine. It is located in `~/.ssh/` and called after the machine name. Your config file should look like this now:
+6. You will get a popup asking you to open the config you just created. Now you also want to provide the location of the ssh key to connect to the machine. It is located in `~/.ssh/` and called after the machine name. Your config file should look like this now:
     ```bash
     Host podman-machine
       HostName 127.0.0.1
@@ -45,13 +45,13 @@ A LaTeX environment in podman to work with VSCode and especially on `arm64` arch
       User core
     ```
 
-7. Update the remotes list by clicking the rotating arrow on the top left corner. Connect to the remote by clicking the arrow next to its name.
+7. Update the remotes list in VSCODE by clicking the rotating arrow on the top left corner. Connect to the remote by clicking the arrow next to its name.
 
-8. Inside the container again click on the Remote-Explorer Plugin but this time on the Development Container tab. You now should see every podman container running on your device.
+8. Inside the container again click on the Remote-Explorer extension but this time on the "Development Container" tab. You now should see every podman container running on your device.
 
 9. Access latex container by clicking the arrow next to its name.
 
-10. Inside open the folder `/data` and install the nessecary extensions by running the `install-extensions.sh` Skript inside the VSCode terminal.
+10. Inside open the folder `/data` and install the nessecary extensions by running the `install-extensions.sh` script inside the VSCode terminal.
     ```bash
     bash scripts/install-extensions.sh
     ```
