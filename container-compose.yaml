@@ -12,7 +12,7 @@ services:
     image: jabref/cloudref
     platform: linux/amd64
     ports:
-      - 80:8080
+      - 1080:8080
     volumes:
       - data:/root/CloudRef
 
